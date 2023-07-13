@@ -41,6 +41,7 @@ public class DemoController {
 
     @GetMapping("list")
     public Resp<List> list() {
+        // 这个不太行
         List<String> list = Arrays.asList("zhangsan", "lisi", "wangwu");
         return Resp.success(list);
     }
