@@ -39,9 +39,9 @@ public class DemoController {
         return Resp.success("default");
     }
 
-    @GetMapping("list")
-    public Resp<List> list() {
-        List<String> list = Arrays.asList("zhangsan", "lisi", "wangwu");
-        return Resp.success(list);
-    }
+//    @GetMapping("list")
+//    public Resp<List> list() {
+//        List<String> list = Arrays.asList("zhangsan", "lisi", "wangwu");
+//        return Resp.success(list);
+//    }
 }
